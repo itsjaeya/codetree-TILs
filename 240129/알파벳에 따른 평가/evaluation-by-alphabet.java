@@ -6,7 +6,7 @@ public class Main {
         char letter = sc.next().charAt(0);
 
         if (letter == 'S') {
-            System.out.println("Syperior");
+            System.out.println("Superior");
         } else if (letter == 'A') {
             System.out.println("Excellent");
         } else if (letter == 'B') {
