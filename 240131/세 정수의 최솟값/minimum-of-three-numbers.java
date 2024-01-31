@@ -12,7 +12,7 @@ public class Main {
             min = b;
         }
         if (c < min) {
-            min = b;
+            min = c;
         }
 
         System.out.println(min);
