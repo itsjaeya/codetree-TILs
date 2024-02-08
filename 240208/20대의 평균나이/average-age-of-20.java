@@ -8,7 +8,7 @@ public class Main {
 
         while (true) {
             int age = sc.nextInt();
-            if (age >= 30) {
+            if (age / 10 != 2) {
                 break;
             }
             sum += age;
@@ -16,7 +16,7 @@ public class Main {
         }
 
         double avg = (double) sum / cnt;
-        
+
         System.out.printf("%.2f", avg);
     }
 }
